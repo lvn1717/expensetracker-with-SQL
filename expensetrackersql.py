@@ -15,7 +15,7 @@ class ExpenseTracker:
     def __init__(self):
         self.conn = mysql.connector.connect(
             host="", #server host from MySQL
-            user="root",  #MySQL username
+            user="",  #MySQL username
             password="",  #MySQL password
             database="expense_tracker"
         )
